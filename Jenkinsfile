@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy to Staging'){
         	steps{
-        		buil job: 'Deploy'
+        		buil job: 'MavenPro/deploy'
         	}
         }
     }
